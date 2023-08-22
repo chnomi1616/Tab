@@ -1,0 +1,214 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.profile {
+  position: relative;
+}
+.profile-wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-child {
+  align-self: stretch;
+  position: relative;
+  background-color: #8e97b9;
+  height: 1px;
+}
+.navbar-group,
+.rectangle-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.rectangle-wrapper {
+  align-self: stretch;
+  padding: 1px 0 0;
+}
+.navbar-group {
+  gap: 2px;
+}
+.frame-item {
+  align-self: stretch;
+  position: relative;
+  border-radius: 12px;
+  background-color: #122156;
+  height: 3px;
+}
+.frame-container,
+.navbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-container {
+  flex-direction: column;
+  gap: 2px;
+  color: #122156;
+}
+.navbar {
+  position: absolute;
+  top: 106px;
+  left: 391px;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 0 24px 32px rgba(152, 127, 223, 0.2);
+  flex-direction: row;
+  padding: 32px 54px;
+  color: #595f78;
+}
+.account-prefferences {
+  position: relative;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.emailaddresscom {
+  position: relative;
+  font-size: 16px;
+}
+.change-wrapper,
+.email-address-parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.email-address-parent {
+  flex-direction: column;
+  gap: 8px;
+}
+.change-wrapper {
+  border-radius: 31px;
+  background-color: #122156;
+  border: 1px solid #122156;
+  flex-direction: row;
+  padding: 8px 24px;
+  color: white;
+}
+.email-1 {
+  width: 425px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: var(--font-size-sm);
+}
+.password-must-be {
+  position: relative;
+  font-size: 14px;
+  display: inline-block;
+  width: 271px;
+}
+.change-container {
+  border-radius: 31px;
+  background-color: #122156;
+  border: 1px solid #122156;
+  display: flex;
+  flex-direction: row;
+  padding: 8px 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 14px;
+  color: white;
+}
+.change-password {
+  width: 425px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+}
+.account-prefferences-parent {
+  position: absolute;
+  top: 278px;
+  left: 159px;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 0 16px 43px rgba(188, 165, 255, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 32px 54px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  font-size: 12px;
+}
+.display-language {
+  position: relative;
+  font-weight: 600;
+}
+.beta-wrapper,
+.display-language-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.beta {
+  border-radius: 17px;
+  background-color: #122156;
+  padding: 2px 8px;
+  align-items: flex-start;
+  font-size: 10px;
+  color: white;
+}
+.display-language-parent {
+  width: 317px;
+  align-items: center;
+  gap: 8px;
+}
+.p {
+  position: relative;
+  font-size: 14px;
+  display: inline-block;
+  width: 317px;
+}
+.icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.change-parent,
+.email {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.change-parent {
+  border-radius: 31px;
+  border: 1px solid #122156;
+  flex-direction: row;
+  padding: 8px 16px 8px 24px;
+  gap: 10px;
+  font-size: 14px;
+}
+.email {
+  position: absolute;
+  top: 385px;
+  left: 773px;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 0 16px 30px rgba(152, 127, 223, 0.2);
+  width: 425px;
+  flex-direction: column;
+  padding: 32px 54px;
+  box-sizing: border-box;
+  gap: 24px;
+}
+.grand-parent {
+  position: relative;
+  background-color: #ebefff;
+  width: 100%;
+  height: 660px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 16px;
+  color: #122156;
+  font-family: Poppins;
+}
